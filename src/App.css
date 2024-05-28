@@ -1,0 +1,96 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.step-wrapper {
+  padding-left: 10px;
+}
+
+.step-container {
+  display: flex;
+  flex-direction: column;
+  border-left: solid black 2px;
+  justify-content: end;
+  gap: 12px;
+  padding-block: 12px;
+}
+
+.step-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.step-item {
+  display: flex;
+  align-items: end;
+  gap: 4px;
+}
+
+.step-item button {
+  display: none;
+}
+
+.step-item:hover button {
+  display: inline;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+}
+
+.horizontal-bar {
+  border-bottom: solid black 2px;
+  height: 10px;
+  width: 10px;
+}
+
+.add-root-button {
+  padding: 8px;
+}
+
+.primary-button {
+  background-color: black;
+  color: white;
+}
+
+.rounded-button {
+  height: 24px;
+  width: 24px;
+  border-radius: 12px;
+}
+
+.create-folder-container {
+  padding: 12px;
+  border: solid black 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.square-button {
+  background-color: transparent;
+  border: solid black 1px;
+  justify-content: center;
+  align-items: center;
+}
+
+.disable {
+  opacity: 0.5;
+}
+
+.add-or-remove-button {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: end;
+  margin-left: 8px;
+}
+
+.error-message {
+  margin-top: 4px;
+  color: red;
+  font-size: 12px;
+}
